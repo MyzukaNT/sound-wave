@@ -8,8 +8,8 @@ const Footer = () => (
     <Container fluid style={{ backgroundColor: '#202027', color: '#fff'}}>
         <Container style={{ display: 'flex', justifyContent: 'center', padding: '10px'}}>
                     
-                                <Nav.Link md='2'>About Us</Nav.Link>
-                                <Nav.Link md='2'>Contact</Nav.Link>        
+                <Nav.Link md='2'>About Us</Nav.Link>
+                <Nav.Link md='2'>Contact</Nav.Link>        
                            
             <p>Twitter</p>
             <p>Facebook</p>

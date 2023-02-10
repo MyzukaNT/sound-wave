@@ -15,7 +15,7 @@ export default function NaviBar() {
                 <Link to="/">Soundwave</Link>
             </Navbar.Brand>
 
-            <Navbar.Toggle aria-controls='responsive-navbar-nav' />
+            {/* <Navbar.Toggle aria-controls='responsive-navbar-nav' /> */}
 
             <Navbar.Collapse id="responsive-navbar-nav" md='10' className='d-flex justify-content-end'>
                 <Nav className="mr-auto">
