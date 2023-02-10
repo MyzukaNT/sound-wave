@@ -1,5 +1,12 @@
 import React from "react";
+import Footer from "../../Footer";
 
-export const Discover = () => (
-    <h1>Page Discover</h1>
-)
+export default function Discover() {
+    return (
+      <>
+        <h1>Discover</h1>
+        <Footer />
+      
+      </>
+    );
+  }

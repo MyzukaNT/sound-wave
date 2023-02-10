@@ -6,7 +6,7 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 
 import { Main } from './Components/screens/Main/Main';
-import { Discover } from './Components/screens/Discover/Discover';
+import Discover from './Components/screens/Discover/Discover';
 import Join from './Components/screens/Join/Join';
 import { Error } from './Components/screens/Errors/Error';
 

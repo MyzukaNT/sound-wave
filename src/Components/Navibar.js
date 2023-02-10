@@ -1,5 +1,5 @@
 import React from 'react';
-import { Nav, Navbar } from 'react-bootstrap';
+import { Container, Nav, Navbar } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import  logo  from './img/logo.png';
 
@@ -9,6 +9,7 @@ export default function NaviBar() {
     return (
         <>
         <Navbar collapseOnSelect expend="lg" bg="dark" variant="dark" className='my-2'>
+            <Container>
             <Navbar.Brand md='2'>
                 <img src={logo} className="App-logo" alt="logo" height={45}/>
                 <Link to="/">Soundwave</Link>
@@ -23,7 +24,7 @@ export default function NaviBar() {
                 </Nav>
 
             </Navbar.Collapse>
-
+            </Container>
         </Navbar>
     
         </>
