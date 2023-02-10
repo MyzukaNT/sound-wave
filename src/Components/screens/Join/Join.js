@@ -1,8 +1,11 @@
 import Button from 'react-bootstrap/Button';
 import Form from 'react-bootstrap/Form';
+import Footer from "../../Footer";
+
 
 export default function Join() {
   return (
+    <>
     <Form>
         <Form.Group className="mb-3" controlId="formJoinEmail">
             <Form.Label>Name:</Form.Label>
@@ -22,6 +25,9 @@ export default function Join() {
         <Button variant="primary" type="submit">
             Join Now
         </Button>
+       
     </Form>
+    <Footer />
+    </>
   );
 }
